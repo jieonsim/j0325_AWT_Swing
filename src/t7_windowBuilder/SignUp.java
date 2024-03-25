@@ -142,7 +142,7 @@ public class SignUp extends JFrame {
 		txtPhoneNum.setColumns(10);
 		panel2.add(txtPhoneNum);
 
-		JLabel lblBirth = new JLabel("생년월일 8자리");
+		JLabel lblBirth = new JLabel("생년월일");
 		lblBirth.setBounds(224, 160, 90, 20);
 		lblBirth.setFont(new Font("맑은 고딕", Font.PLAIN, 12));
 		panel2.add(lblBirth);
