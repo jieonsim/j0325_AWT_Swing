@@ -240,6 +240,7 @@ public class SignUp extends JFrame {
 				txtName.setText("");
 				txtBirth.setText("");
 				txtPhoneNum.setText("");
+				txtMid.requestFocus(); // 리셋 시 아이디에 커서 포커스
 			}
 		});
 

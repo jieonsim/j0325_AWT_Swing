@@ -5,12 +5,12 @@ import java.awt.Font;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Test1 extends JFrame {
+public class T1_Basic extends JFrame {
 	// 텍스트 필드 등 변수는 위쪽으로 올리자. 표시만 해주는 애들은 안올려도 되지만 뭔가 받아서 하는건 올려줘야함
 	private JTextField txtName, txtKor, txtEng, txtMat;
 	private JButton btnInput, btnReset, btnExit;
 
-	public Test1() {
+	public T1_Basic() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 800, 600);
 		getContentPane().setLayout(null);
@@ -125,7 +125,7 @@ public class Test1 extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		new Test1();
+		new T1_Basic();
 
 	}
 }
