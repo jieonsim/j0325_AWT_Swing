@@ -22,7 +22,7 @@ public class InsaMain extends JFrame {
 		pn1.setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("인사관리프로그램");
-		lblNewLabel.setFont(new Font("굴림", Font.PLAIN, 20));
+		lblNewLabel.setFont(new Font("AppleSDGothicNeoB00", Font.PLAIN, 20));
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setBounds(12, 10, 760, 58);
 		pn1.add(lblNewLabel);
@@ -113,7 +113,7 @@ public class InsaMain extends JFrame {
 		
 		
 	}
-	
+
 	public static void main(String[] args) {
 		new InsaMain();
 	}

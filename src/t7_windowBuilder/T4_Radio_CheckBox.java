@@ -103,6 +103,7 @@ public class T4_Radio_CheckBox extends JFrame{
 		btnHobby.setBounds(241, 10, 117, 35);
 		pn3.add(btnHobby);
 		
+		
 //------------------------------------------------------------------------------------
 		
 		setLocationRelativeTo(null); // 화면이 가운데 뜨도록
