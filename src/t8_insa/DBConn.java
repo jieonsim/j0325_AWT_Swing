@@ -4,11 +4,11 @@ import java.sql.*;
 
 // DB 연결이 주 목적인 DAO, 다른 DAO와 연결해 이용
 public class DBConn {
-	Connection conn = null;
-	PreparedStatement pstmt = null;
-	ResultSet rs = null;
+	public Connection conn = null;
+	public PreparedStatement pstmt = null;
+	public ResultSet rs = null;
 
-	String sql = "";
+	public String sql = "";
 
 	public DBConn() {
 		String url = "jdbc:mysql://localhost:3306/javaclass";
